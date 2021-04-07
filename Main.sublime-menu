@@ -1,0 +1,46 @@
+[
+  {
+    "caption": "Tools",
+    "id": "tools",
+    "children": [
+      {
+        "id": "quick-lint-js",
+        "caption": "QuickLintJs",
+        "command": "quick_lint_js"
+      }
+    ]
+  },
+  {
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [
+      {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [
+          {
+            "caption": "QuickLintJs",
+            "children": [
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/QuickLintJs/QuickLintJs.sublime-settings"
+                },
+                "caption": "Settings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": {
+                  "file": "${packages}/User/QuickLintJs.sublime-settings"
+                },
+                "caption": "Settings – User"
+              },
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

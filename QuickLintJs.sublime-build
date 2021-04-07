@@ -1,0 +1,8 @@
+{
+	"selector": "source.js",
+
+	"cmd": ["quick-lint-js", "$file"],
+
+	"file_regex": "^(.+):(\\d+):(\\d+): (.*)$",
+	"line_regex": "^.+:(\\d+):(\\d+): (.*)$"
+}
